@@ -3,7 +3,6 @@
 const checkForSpam = function(message) {
   const words = message.split(" ");
   const lowerCase = message.toLowerCase();
-  const backString = typeof lowerCase;
   const check = lowerCase.includes("spam") || lowerCase.includes("sale");
   return check;
 };
